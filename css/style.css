@@ -133,10 +133,33 @@ img {
           width: 100%;
        }
 
-       .why-us .row{
+        .row{
         flex-direction: column;
         text-align: center;
         align-items: center;
+       }
+
+       .lessons .col{
+        width: 100%;
+       }
+
+       .steps .col{
+        width: 100%;
+        padding-top: 3rem;
+       }
+
+       .card{
+        padding-top: 3rem;
+       }
+
+       .why-us .col-right {
+        width: 100%;
+        text-align: left;
+       }
+
+       .why-us .col-left {
+        width: 100%;
+        padding-bottom: 3rem;
        }
 
  }
